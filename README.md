@@ -26,7 +26,7 @@
 
 ---
 
-## Bash Scipt 
+## Bash Script 
 <img width="2828" height="1370" alt="image" src="https://github.com/user-attachments/assets/fe470446-03ea-4a4b-a0f3-246f5f9e828e" />
 
 
