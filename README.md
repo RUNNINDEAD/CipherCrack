@@ -2,7 +2,7 @@
 
 > A multi-tool cryptographic decoder for common ciphers, hashes, and encodings.
 
-**CipherCrack** is a command-line Python tool designed to decode and validate various encoding schemes and cryptographic hashes. It is beginner-friendly, modular, and great for CTF challenges, educational use, or security assessments.
+**CipherCrack** is a command-line Python/Bash Script tool designed to decode and validate various encoding schemes and cryptographic hashes. It is beginner-friendly, modular, and great for CTF challenges, educational use, or security assessments.
 
 ---
 
