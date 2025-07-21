@@ -23,7 +23,9 @@
 For Binary make sure you have bc installed onto your machine using 
 
 sudo apt update && sudo apt install bc (Ubuntu or Debian)
+
 or 
+
 sudo dnf install bc (Fedora) 
 
 
