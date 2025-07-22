@@ -20,13 +20,11 @@
 ---
 
 ## Requirements 
-For Binary make sure you have bc installed onto your machine using 
-
-sudo apt update && sudo apt install bc (Ubuntu or Debian)
-
-or 
-
-sudo dnf install bc (Fedora) 
+> **Note:** For Binary operations, ensure `bc` is installed on your system.  
+> - On **Ubuntu** or **Debian-based** systems, run:  
+>   `sudo apt update && sudo apt install bc`  
+> - On **Fedora**, run:  
+>   `sudo dnf install bc`
 
 
 ---
