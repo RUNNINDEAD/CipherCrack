@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ What’s New in 2.0
+## What’s New in 2.0
 
 - **Switch-style routing** via Python 3.10+ `match/case` for cleaner, faster menus and ops.
 - **New ciphers/utilities**:
@@ -19,7 +19,7 @@
 
 ---
 
-## 🧰 Features
+## Features
 
 **Core (expanded in 2.0):**
 - Base64 **encode/decode**
@@ -43,7 +43,7 @@
 
 ---
 
-## 🖥️ Requirements
+## Requirements
 
 - **Python 3.10+** (for `match/case`)
 - (Optional) For the Bash detector script: GNU `base64`, `base32`, `xxd`, and Python (for Base85 helpers)
@@ -53,7 +53,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Run the interactive tool
 ```bash
