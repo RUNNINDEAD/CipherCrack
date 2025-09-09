@@ -15,8 +15,6 @@ ascii_art = r"""
 """
 print(ascii_art)
 
-# ---------------- Helpers ---------------- #
-
 def base64_op(mode: str, text: str) -> str:
     try:
         match mode:
@@ -231,3 +229,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
