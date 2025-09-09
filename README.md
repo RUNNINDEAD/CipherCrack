@@ -36,8 +36,6 @@
 - **URL** encode/decode
 - **Reverse** encode/decode
 
-> These extend your v1.x set (Base64, SHA-256/MD5, Binary↔Text, ROT13, Morse, Rail Fence **decode**, Hex, Atbash). :contentReference[oaicite:2]{index=2}
-
 ---
 
 ## Requirements
