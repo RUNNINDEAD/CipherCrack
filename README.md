@@ -13,8 +13,6 @@
   - Rail Fence **encrypt** (you already had decrypt)
   - Base32, ASCII85 (A85), URL encode/decode, Reverse
 - **Improved hashing:** single `hash_compare` supporting `sha256` and `md5`.
-- **New helper script:** `scripts/detect_encoding.sh` to probe unknown strings against Base64/32/85, URL, ROT13, Hex, etc.
----
 
 ## Features
 
