@@ -50,4 +50,4 @@
 
 ### Run the interactive tool
 ```bash
-python ciphercrack.py
+python3 ciphercrack.py
