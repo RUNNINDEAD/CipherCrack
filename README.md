@@ -66,4 +66,4 @@ The GUI lets you:
 - Enter input text and view the processed output.
 - Compare hash values using **sha256** or **md5** hashes.
 
-python3 ciphercrack.py
+
