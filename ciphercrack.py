@@ -13,9 +13,7 @@ ascii_art = r"""
         | |                                              
         |_|                                              
 """
-print(ascii_art)
-
-def base64_op(mode: str, text: str) -> str:
+ def base64_op(mode: str, text: str) -> str:
     try:
         match mode:
             case 'encode':
@@ -229,4 +227,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
