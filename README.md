@@ -50,4 +50,20 @@
 
 ### Run the interactive tool
 ```bash
+
+### Run the graphical user interface (GUI)
+
+The project now includes a Tkinter-based GUI application. To launch the GUI, run:
+
+```bash
+python3 ciphercrack_gui.py
+```
+
+The GUI lets you:
+
+- Select between encoding/decoding and hash comparison.
+- Choose algorithms like Base64, Base32, Ascii85, and URL encoding.
+- Enter input text and view the processed output.
+- Compare hash values using **sha256** or **md5** hashes.
+
 python3 ciphercrack.py
