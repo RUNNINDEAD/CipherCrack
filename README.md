@@ -124,19 +124,22 @@ pwsh ./ciphercrack.ps1 -ShowVersion
 pwsh ./ciphercrack.ps1 -File report.pdf -Hash
 ```
 
----
+# PowerShell on Windows 
 
-# Project Structure
-
+### Unblock File 
 ```
-CipherCrack/
-├── ciphercrack.py
-├── ciphercrack.sh
-├── ciphercrack.ps1
-└── README.md
+Unblock-File .\ciphercrack.ps1
 ```
 
+# Run Script Using 
+```
+.\ciphercrack.ps1
+```
+
 ---
 
-# License  
+# License
+```
 ZeroScope Intelligence License
+
+```
