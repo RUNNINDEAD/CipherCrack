@@ -134,7 +134,6 @@ def reverse_op(mode: str, text: str) -> str:
         case _:
             return "Invalid reverse mode."
 
-# ---------------- Menu ---------------- #
 
 def main():
     try:
@@ -227,5 +226,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
