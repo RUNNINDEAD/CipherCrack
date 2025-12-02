@@ -1,4 +1,4 @@
-# 🔐 CipherCrack v3.0.0
+# CipherCrack v3.0.0
 
 CipherCrack is a cross-platform cryptography and encoding toolkit written in **Python**, with optional **Bash** and **PowerShell (Linux pwsh)** companion scripts.
 
@@ -6,7 +6,7 @@ It supports fast encoding/decoding, classical cipher operations, SHA-256 hashing
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Encoding / Decoding
 - Base64  
@@ -32,7 +32,7 @@ It supports fast encoding/decoding, classical cipher operations, SHA-256 hashing
 
 ---
 
-# 📦 Requirements
+# Requirements
 
 ### Python  
 - Python **3.10+** (for match/case)
@@ -49,7 +49,7 @@ It supports fast encoding/decoding, classical cipher operations, SHA-256 hashing
 
 ---
 
-# 🐍 Python Usage
+# Python Usage
 
 ### Run interactive menu:
 ```bash
@@ -78,7 +78,7 @@ python3 ciphercrack.py base64 --encode "RUNNINDEAD"
 
 ---
 
-# 🖥️ Bash Script Usage (`ciphercrack.sh`)
+# Bash Script Usage (`ciphercrack.sh`)
 
 ### Run interactive menu:
 ```bash
@@ -102,7 +102,7 @@ python3 ciphercrack.py base64 --encode "RUNNINDEAD"
 
 ---
 
-# 🧩 PowerShell Usage (Linux Only — `pwsh`)
+# PowerShell Usage (Linux Only — `pwsh`)
 
 ### Interactive menu:
 ```bash
@@ -126,7 +126,7 @@ pwsh -File ciphercrack.ps1 -File report.pdf -Hash
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 CipherCrack/
@@ -138,5 +138,5 @@ CipherCrack/
 
 ---
 
-# 📜 License  
-MIT License
+# License  
+ZeroScope Intelligence License
