@@ -53,11 +53,6 @@ Beginner-friendly, modular, and perfect for **CTFs**, **SOC work**, **DFIR**, or
 ### Python version
 - Python **3.10+** required
 
-Fedora:
-```bash
-sudo dnf install python3-tkinter
-```
-
 Windows/macOS: included by default.
 
 ---
