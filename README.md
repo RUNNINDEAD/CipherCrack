@@ -74,7 +74,7 @@ Windows/macOS: included by default.
 Clone the repository:
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/ciphercrack.git
+git clone https://github.com/runnindead/ciphercrack.git
 cd ciphercrack
 ```
 
@@ -196,5 +196,5 @@ Licensed under the **MIT License**.
 
 # 💬 Maintainer
 **Wil Dennison (RUNNINDEAD)**  
-GitHub: https://github.com/<YOUR_USERNAME>  
-LinkedIn: https://www.linkedin.com/in/<YOUR_LINKEDIN>
+GitHub: https://github.com/runnindead 
+LinkedIn: https://www.linkedin.com/in/wil-dennison-9a48a028a/
