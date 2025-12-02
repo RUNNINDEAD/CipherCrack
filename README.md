@@ -111,17 +111,17 @@ pwsh -File ciphercrack.ps1
 
 ### Show help:
 ```bash
-pwsh -File ciphercrack.ps1 -Help
+pwsh ./ciphercrack.ps1 -Help
 ```
 
 ### Show version:
 ```bash
-pwsh -File ciphercrack.ps1 -ShowVersion
+pwsh ./ciphercrack.ps1 -ShowVersion
 ```
 
 ### Hash a file:
 ```bash
-pwsh -File ciphercrack.ps1 -File report.pdf -Hash
+pwsh ./ciphercrack.ps1 -File report.pdf -Hash
 ```
 
 ---
