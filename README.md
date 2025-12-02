@@ -1,69 +1,50 @@
-# CipherCrack v2.0.0
-
-> A multi-tool cryptographic decoder for common ciphers, hashes, and encodings. Beginner-friendly, modular, and great for CTFs, education, or quick security triage.  
-
----
-
-## What’s New in 2.0
-
-- **Switch-style routing** via Python 3.10+ `match/case` for cleaner, faster menus and ops.
-- **New ciphers/utilities**:
-  - Caesar, Vigenère, XOR (with key), ROT47
-  - Morse **encode** (you already had decode)
-  - Rail Fence **encrypt** (you already had decrypt)
-  - Base32, ASCII85 (A85), URL encode/decode, Reverse
-- **Improved hashing:** single `hash_compare` supporting `sha256` and `md5`.
-
-## Features
-
-**Core (expanded in 2.0):**
-- Base64 **encode/decode**
-- **SHA-256 / MD5** hash compare
-- Binary **encode/decode**
-- **ROT13** encode/decode
-- **Morse** encode/decode (`/` between words)
-- **Rail Fence** encrypt/decrypt (key ≥ 2; optional offset)
-- **Hex** encode/decode
-- **Atbash** (symmetric)
-- **Caesar** encode/decode (shift 0–25)
-- **Vigenère** encode/decode (alpha key recommended)
-- **XOR** (encode/decode → hex; and `decode-hex`)
-- **ROT47** encode/decode
-- **Base32** encode/decode
-- **ASCII85 (Base85/A85)** encode/Decode
-- **URL** encode/decode
-- **Reverse** encode/decode
+# 🔐 CipherCrack v3.0.0
+A modern multi-tool cryptographic decoder for common ciphers, hashes, and encodings.  
+Beginner-friendly, modular, and perfect for **CTFs**, **SOC work**, **DFIR**, or quick security triage.
 
 ---
 
-## Requirements
-
-- **Python 3.10+** (for `match/case`)
-- (Optional) For the Bash detector script: GNU `base64`, `base32`, `xxd`, and Python (for Base85 helpers)
-- **Note for Binary math on older Bash tooling:** you previously recommended installing `bc`; keep if you rely on shell-side binary math in other scripts:  
-  - Ubuntu/Debian: `sudo apt update && sudo apt install bc`  
-  - Fedora: `sudo dnf install bc` :contentReference[oaicite:3]{index=3}
+## 🚀 What’s New in 3.0
+- Global CLI flags: `--help`, `--version`, `--file <path> --hash`
+- Refactored and cleaned Python core
+- Interactive menu improvements
+- Unified hash system using **SHA-256**
+- New Tkinter GUI application (`ciphercrack_gui.py`)
+- Better documentation and project structure
 
 ---
 
-## Quick Start
+## 🧰 Features
 
-### Run the interactive tool
-```bash
+### Encoding / Decoding
+- Base64 encode/decode  
+- Base32 encode/decode  
+- ASCII85/Base85 encode/decode  
+- Hex encode/decode  
+- URL encode/decode  
+- Binary encode/decode  
+- Reverse text  
 
-### Run the graphical user interface (GUI)
+### Classical Ciphers
+- ROT13  
+- ROT47  
+- Atbash  
+- Caesar (shift 0–25)  
+- Vigenère  
+- XOR (key-based)  
 
-The project now includes a Tkinter-based GUI application. To launch the GUI, run:
+### Morse Code
+- Encode  
+- Decode (`/` = space between words)  
 
-```bash
-python3 ciphercrack_gui.py
-```
+### Rail Fence Cipher
+- Encrypt  
+- Decrypt  
+- Supports custom rails + offset  
 
-The GUI lets you:
+### Hashing
+- SHA-256 string hashing  
+- SHA-256 file hashing  
+- SHA-256 compare mode  
 
-- Select between encoding/decoding and hash comparison.
-- Choose algorithms like Base64, Base32, Ascii85, and URL encoding.
-- Enter input text and view the processed output.
-- Compare hash values using **sha256** or **md5** hashes.
-
-
+---
