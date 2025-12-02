@@ -2,7 +2,7 @@
 
 CipherCrack is a cross-platform cryptography and encoding toolkit written in **Python**, with optional **Bash** and **PowerShell (Linux pwsh)** companion scripts.
 
-It supports fast encoding/decoding, classical cipher operations, SHA-256 hashing, and file hashing. Perfect for CTFs, cybersecurity students, threat analysis, or quick SOC triage.
+It supports fast encoding/decoding, classical cipher operations, SHA-256 hashing, and file hashing. Perfect for CTFs, cybersecurity students, Cybersecurity analysts, or quick SOC triage.
 
 ---
 
