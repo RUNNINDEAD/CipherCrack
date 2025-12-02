@@ -173,16 +173,6 @@ ciphercrack/
 
 ---
 
-# 🛠️ Roadmap (3.1+)
-- JSON output mode (`--json`)
-- Quiet mode (`--quiet`)
-- Recursive directory hashing
-- Export output (`--save result.txt`)
-- Plugin system for new ciphers
-- Web interface version
-
----
-
 # 🤝 Contributing
 Pull requests are welcome.  
 CipherCrack is extensible—add new ciphers, algorithms, or GUIs!
