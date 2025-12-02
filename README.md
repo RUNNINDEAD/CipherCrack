@@ -1,154 +1,142 @@
 # 🔐 CipherCrack v3.0.0
-A modern multi-tool cryptographic decoder for common ciphers, hashes, and encodings.  
-Beginner-friendly, modular, and perfect for **CTFs**, **SOC work**, **DFIR**, or quick security triage.
+
+CipherCrack is a cross-platform cryptography and encoding toolkit written in **Python**, with optional **Bash** and **PowerShell (Linux pwsh)** companion scripts.
+
+It supports fast encoding/decoding, classical cipher operations, SHA-256 hashing, and file hashing. Perfect for CTFs, cybersecurity students, threat analysis, or quick SOC triage.
 
 ---
 
-## 🚀 What’s New in 3.0
-- Global CLI flags: `--help`, `--version`, `--file <path> --hash`
-- Unified SHA-256 hashing system
-- Improved interactive menu
-- Clean refactor of Python codebase
-- Updated GitHub documentation
-
----
-
-## 🧰 Features
+## 🚀 Features
 
 ### Encoding / Decoding
 - Base64  
 - Base32  
-- ASCII85/Base85  
-- Hex  
+- ASCII85 / Base85  
+- Hex (encode/decode)  
+- Binary (encode/decode)  
 - URL encode/decode  
-- Binary encode/decode  
-- Reverse  
+- Reverse text  
 
 ### Classical Ciphers
 - ROT13  
 - ROT47  
 - Atbash  
-- Caesar (0–25)  
-- Vigenère  
-- XOR (key-based)  
+- Caesar (shift 0–25)  
+- Vigenère (alpha key)  
+- XOR (encode → hex, decode from hex)
 
-### Morse Code
-- Encode  
-- Decode (`/` = space between words)
-
-### Rail Fence Cipher
-- Encrypt  
-- Decrypt  
-- Custom rails + offset
-
-### Hashing
-- SHA-256 string hashing  
-- SHA-256 file hashing (CLI + menu mode)  
-- SHA-256 hash comparison
+### Hashing (SHA-256)
+- Hash strings  
+- Hash files  
+- Compare computed hash vs user input  
 
 ---
 
 # 📦 Requirements
 
-### Python version
-- Python **3.10+** required
+### Python  
+- Python **3.10+** (for match/case)
 
-Windows/macOS: included by default.
+### Bash Script  
+- Works on any Linux/macOS with:
+  - `bash`
+  - `base64`, `base32`, `rev`, `xxd`
+  - `python3` (for XOR, ASCII85 helpers)
+
+### PowerShell (Linux Only)  
+- Requires **PowerShell 7+**
+- Installed as `pwsh` on Linux systems  
 
 ---
 
-# ⚙️ Installation
+# 🐍 Python Usage
 
-Clone the repository:
-
-```bash
-git clone https://github.com/runnindead/ciphercrack.git
-cd ciphercrack
-```
-
-Run the Python CLI:
-
+### Run interactive menu:
 ```bash
 python3 ciphercrack.py
 ```
 
----
-
-# 🖥️ CLI Usage
-
-### Help
+### Show help:
 ```bash
 python3 ciphercrack.py --help
 ```
 
-### Version
+### Show version:
 ```bash
 python3 ciphercrack.py --version
 ```
 
-### File Hashing (SHA-256)
+### Hash a file (SHA-256):
 ```bash
-python3 ciphercrack.py --file example.bin --hash
+python3 ciphercrack.py --file secrets.txt --hash
 ```
 
-### Base64 Encoding
+### Example: Base64 encode
 ```bash
 python3 ciphercrack.py base64 --encode "RUNNINDEAD"
 ```
 
-### URL Decoding
+---
+
+# 🖥️ Bash Script Usage (`ciphercrack.sh`)
+
+### Run interactive menu:
 ```bash
-python3 ciphercrack.py url --decode "hello%20world"
+./ciphercrack.sh
 ```
 
-### Hash a String
+### Show help:
 ```bash
-python3 ciphercrack.py hash --string "Hello World"
+./ciphercrack.sh --help
+```
+
+### Show version:
+```bash
+./ciphercrack.sh --version
+```
+
+### Hash a file:
+```bash
+./ciphercrack.sh --file payload.bin --hash
 ```
 
 ---
 
-# 🧩 Interactive Menu Mode
+# 🧩 PowerShell Usage (Linux Only — `pwsh`)
 
-Launch interactive mode:
-
+### Interactive menu:
 ```bash
-python3 ciphercrack.py
+pwsh -File ciphercrack.ps1
 ```
 
-Includes:
+### Show help:
+```bash
+pwsh -File ciphercrack.ps1 -Help
+```
 
-- All encoding/decoding tools  
-- Classical ciphers  
-- Hash utilities  
-- File SHA-256 hashing  
-- Input validation and error handling
+### Show version:
+```bash
+pwsh -File ciphercrack.ps1 -ShowVersion
+```
+
+### Hash a file:
+```bash
+pwsh -File ciphercrack.ps1 -File report.pdf -Hash
+```
 
 ---
 
 # 📁 Project Structure
 
 ```
-ciphercrack/
-├── ciphercrack.py        # Python CLI + menu tool
-├── ciphercrack_gui.py    # GUI application (Tkinter)
-└── README.md             # Documentation
+CipherCrack/
+├── ciphercrack.py
+├── ciphercrack.sh
+├── ciphercrack.ps1
+└── README.md
 ```
 
 ---
 
-# 🤝 Contributing
-Pull requests are welcome.  
-CipherCrack is extensible—add new ciphers, algorithms, or GUIs!
-
----
-
-# 📜 License
-Licensed under the **MIT License**.
-
----
-
-# 💬 Maintainer
-**Wil Dennison (RUNNINDEAD)**  
-GitHub: https://github.com/runnindead 
-LinkedIn: https://www.linkedin.com/in/wil-dennison-9a48a028a/
+# 📜 License  
+MIT License
