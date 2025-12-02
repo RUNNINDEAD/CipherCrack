@@ -42,11 +42,20 @@ It supports fast encoding/decoding, classical cipher operations, SHA-256 hashing
   - `bash`
   - `base64`, `base32`, `rev`, `xxd`
   - `python3` (for XOR, ASCII85 helpers)
+ 
+## Install PowerShell On Linux 
 
-### PowerShell (Linux Only)  
 - Requires **PowerShell 7+**
-- Installed as `pwsh` on Linux systems  
 
+```
+sudo apt update
+sudo apt install -y wget apt-transport-https software-properties-common
+wget -q https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt update
+sudo apt install -y powershell
+
+```
 ---
 
 # Python Usage
