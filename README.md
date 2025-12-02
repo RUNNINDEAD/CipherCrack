@@ -8,7 +8,6 @@ Beginner-friendly, modular, and perfect for **CTFs**, **SOC work**, **DFIR**, or
 - Global CLI flags: `--help`, `--version`, `--file <path> --hash`
 - Unified SHA-256 hashing system
 - Improved interactive menu
-- New Tkinter GUI (`ciphercrack_gui.py`)
 - Clean refactor of Python codebase
 - Updated GitHub documentation
 
@@ -53,12 +52,6 @@ Beginner-friendly, modular, and perfect for **CTFs**, **SOC work**, **DFIR**, or
 
 ### Python version
 - Python **3.10+** required
-
-### Tkinter (GUI)
-Linux:
-```bash
-sudo apt install python3-tk
-```
 
 Fedora:
 ```bash
