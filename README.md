@@ -72,12 +72,6 @@ Run the Python CLI:
 python3 ciphercrack.py
 ```
 
-Launch GUI:
-
-```bash
-python3 ciphercrack_gui.py
-```
-
 ---
 
 # 🖥️ CLI Usage
@@ -128,25 +122,7 @@ Includes:
 - Classical ciphers  
 - Hash utilities  
 - File SHA-256 hashing  
-- Input validation and error handling  
-
----
-
-# 🎨 GUI Mode (Tkinter)
-
-Launch:
-
-```bash
-python3 ciphercrack_gui.py
-```
-
-GUI Features:
-
-- Dropdown menu for algorithms  
-- Encoding/decoding toggle  
-- SHA-256 compare mode  
-- Input/output panels  
-- Clipboard buttons  
+- Input validation and error handling
 
 ---
 
