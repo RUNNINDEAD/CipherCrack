@@ -6,7 +6,7 @@ It supports fast encoding/decoding, classical cipher operations, SHA-256 hashing
 
 ---
 
-## Features
+# Features
 
 ### Encoding / Decoding
 - Base64  
