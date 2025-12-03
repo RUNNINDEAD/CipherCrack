@@ -138,11 +138,18 @@ pwsh ./ciphercrack.ps1 -File report.pdf -Hash
 ### Unblock File 
 ```
 Unblock-File .\ciphercrack.ps1
+
 ```
 
 # Run Script Using 
 ```
 .\ciphercrack.ps1
+
+```
+
+# Interactive Menu
+```
+.\ciphercrack.ps1 -Help
 
 ```
 
