@@ -141,19 +141,19 @@ Unblock-File .\ciphercrack.ps1
 
 ```
 
-# Run Script Using 
+### Run Script Using 
 ```
 .\ciphercrack.ps1
 
 ```
 
-# Interactive Menu
+### Interactive Menu
 ```
 .\ciphercrack.ps1 -Help
 
 ```
 
-# Hash A File 
+### Hash A File 
 ```
 .\ciphercrack.ps1 -File <path-of-file> -Hash 
 
