@@ -153,6 +153,12 @@ Unblock-File .\ciphercrack.ps1
 
 ```
 
+# Hash A File 
+```
+.\ciphercrack.ps1 -File <path-of-file> -Hash 
+
+```
+
 ---
 
 # License
