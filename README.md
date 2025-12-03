@@ -111,7 +111,7 @@ python3 ciphercrack.py base64 --encode "RUNNINDEAD"
 
 ---
 
-# PowerShell Usage (Linux Only — `pwsh`)
+# PowerShell Usage (Linux Only — `pwsh`) and Windows 10+
 
 ### Interactive menu:
 ```bash
