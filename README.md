@@ -141,13 +141,13 @@ Unblock-File .\ciphercrack.ps1
 
 ```
 
-### Run Script Using 
+### Interactive Menu On PowerShell
 ```
 .\ciphercrack.ps1
 
 ```
 
-### Interactive Menu
+### Help Menu
 ```
 .\ciphercrack.ps1 -Help
 
