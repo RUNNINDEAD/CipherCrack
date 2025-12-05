@@ -109,6 +109,18 @@ python3 ciphercrack.py base64 --encode "RUNNINDEAD"
 ./ciphercrack.sh --file payload.bin --hash
 ```
 
+### Encode: 
+```bash
+./ciphercrack.sh -m base64 -a encode -t "hello"
+```
+### Decode:
+```
+./ciphercrack.sh -m base64 -a decode -t "aGVsbG8="
+```
+
+
+###
+
 ---
 
 # PowerShell Usage (Linux Only — `pwsh`) and Windows 10+
